@@ -1,0 +1,11 @@
+modules:
+  macro:
+    - key: onlyoffice-confluence-cloud-hello-world
+      function: main
+      title: onlyoffice-confluence-cloud
+      description: Inserts Hello world!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/abae534d-1319-4a9d-95cb-42712da204be
